@@ -1,0 +1,12 @@
+<html>
+  <body>
+    <h1>Messages for <%= name %></h1>
+    <ul>
+      <% messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+    </ul>
+  </body>
+</html>
+Can you guess what this means?
+Everything inside the so called ERB tags <% ... %> is considered Ruby code. Everything outside of them is just some static text, in our case HTML code, into which the results of the Ruby code will be embedded whenever the ERB tag also has an equals sign, as in <%= ... %>.

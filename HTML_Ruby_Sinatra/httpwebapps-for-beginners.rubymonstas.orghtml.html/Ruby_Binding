@@ -1,0 +1,7 @@
+#****************************************************************
+              html = ERB.new(template).result(binding)
+#****************************************************************
+
+Binding- "Objects of class Binding encapsulate the execution context at some particular place in the code and retain this context for future use. The variables, methods, […] that can be accessed in this context are all retained. Binding objects can be created using Kernel#binding […]. These binding objects can be passed [around].”"
+
+For now, the one thing you can remember is that by calling binding and passing the result to the ERB instance, you simply pass access to the two local variables name and messages, so they can be used inside your ERB template.

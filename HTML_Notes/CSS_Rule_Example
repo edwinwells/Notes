@@ -1,0 +1,26 @@
+H1 { color: green }
+What you see above is a simple CSS rule that contains one rule. A rule is a statement about one stylistic aspect of one or more elements. A style sheet is a set of one or more rules that apply to an HTML document. The rule above sets the color of all first-level headings (h1). 
+
+Anatomy of a rule
+A rule consists of two parts: 
+Selector - the part before the left curly brace 
+Declaration - the part within the curly braces 
+ 
+The selector is the link between the HTML document and the style. It specifies what elements are affected by the declaration. The declaration is that part of the rule that sets forth what the effect will be. In the example above, the selector is h1 and the declaration is "color: green." Hence, all h1 elements will be affected by the declaration, that is, they will be turned green. (The color property just affects the foreground text color, there are other properties for background, border, etc.) 
+The above selector is based on the type of the element: it selects all elements of type "h1." This kind of selector is called type selector. Any HTML element type can be used as a type selector. Type selectors are the simplest kind of selectors.
+
+Anatomy of a declaration
+A declaration has two parts separated by a colon: 
+Property - that part before the colon 
+Value - that part after the colon 
+ 
+The property is a quality or characteristic that something possesses. In the previous example, it is color. CSS2 (see separate box) defines around 120 properties and we can assign values to all of them. 
+
+H1 { font-weight: bold }
+H2 { font-weight: bold }
+H3 { font-weight: bold }
+     
+All three rules have exactly the same declaration - they set the font to be bold. (This is done using the font-weight property, which we discuss in See Fonts. .) Since all three declarations are identical, we can group the selectors into a comma-separated list and only list the declaration once, like this: 
+H1, H2, H3 { font-style: bold }
+
+H1 { text-align: center }

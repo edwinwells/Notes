@@ -1,0 +1,8 @@
+If you run new favorite numbers and don't put anything into the fields, it prints "hidden" in a text box on the screen. You've got
+    <input type ="text" name="user_name" value = <%= name%> hidden>
+so if name is empty, it sends 
+    <input type ="text" name="user_name" value = hidden> 
+to the browser. 
+Remember, the correct format of an html tag is one element_name followed by attribute_name=attribute_value pairs.
+Also hidden is a valid type for input, so I'd write:
+    <input type ="hidden" name="user_name" value ="<%= name%>" >

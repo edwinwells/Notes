@@ -1,0 +1,3 @@
+ruby -r debug filename.fileextension
+
+E.g.  ruby -r ISBN_Refactored.rb

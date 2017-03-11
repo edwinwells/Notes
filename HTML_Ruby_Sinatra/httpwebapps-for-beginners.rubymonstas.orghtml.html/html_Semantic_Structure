@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Ruby Monstas HTML Example</title>
+  </head>
+  <body>
+    <h1>Ruby Monstas HTML Example</h1>
+    <p>One paragraph of text.</p>
+    <p>Another paragraph of text, containing an emphasized <em>word</em>.</p>
+    <h2>A list of items</h2>
+    <ul>
+      <li>First item</li>
+      <li>Second item</li>
+      <li>Third item</li>
+    </ul>
+  </body>
+</html>
+
+#***************************************************************
+                        TRANSLATION:
+#***************************************************************
+
+html>...</html> - the HTML document as a whole
+<head>...</head> - the header of the document, containing meta information (i.e. information about the document, not part of the document itself)
+<title>...</title> - an example of one bit of meta information, the title of the page as displayed in your browser history, and the browser window title (or tab)
+<body>...</body> - the body of the document itself, i.e. the whole of its content
+<h1>...</h1>, <h2>...</h2> - a headline level 1, and level 2, containing the headline’s text. HTML defines heading levels 1-6, which should be enough to define the structure even of large documents.
+<p>...</p> - a single paragraph, containing the paragraph’s text.
+<ul>...</ul> - an unordered list (i.e. a list that uses bullet points, as opposed to, e.g., a numbered list)
+<li>...</li> - a single list item, must be contained in either a <ul> or <ol> tag

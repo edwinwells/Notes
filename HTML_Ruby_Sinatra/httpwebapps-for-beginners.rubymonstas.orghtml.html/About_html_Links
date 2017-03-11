@@ -1,0 +1,8 @@
+Maybe the simplest example is a link. In order to describe a link in text (HTML is stored as plain text) we’ll need to tell three pieces of information to the browser:
+
+1)  That we’d like to define a link;
+2)  what text to display for the link; and
+3)  what other web address to link to.
+This is a valid example of a link in HTML, using the tag a (which means “anchor”):
+<a href="http://rubymonstas.org">Ruby Monstas Homepage</a>
+This HTML, when rendered in a web browser, looks like this: Ruby Monstas Homepage, i.e. there’s a link with the text “Ruby Montas Homepage” and it links to the target URL (“href”) http://rubymonstas.org.

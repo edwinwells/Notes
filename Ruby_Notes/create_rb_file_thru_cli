@@ -1,0 +1,3 @@
+New-Item filename.file-extension -type file
+  E.g.,
+New-Item functions.rb -type file
