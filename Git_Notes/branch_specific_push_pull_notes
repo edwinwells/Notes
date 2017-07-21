@@ -1,0 +1,9 @@
+Here are the steps for git in case you need to refer to them. 
+git add .
+git status
+git commit -m  "message about commit"
+git pull origin refactoring
+git push origin refactoring
+
+or if pushing to master branch
+git push origin master

@@ -1,0 +1,12 @@
+[att^=val] – the “begins with” selector
+[att$=val] – the “ends with” selector
+[att*=val] – the “contains” selector
+
+Examples:
+a[href^=”http://”]
+p[title^=”Hello”] 
+
+Another Example, using an image:
+div.example1 a[href^=”mailto:”] {
+background-image: url(demo-images/mail.png);
+}
